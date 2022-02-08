@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-This software is in the public domain under CC0 1.0 Universal plus a 
+This software is in the public domain under CC0 1.0 Universal plus a
 Grant of Patent License.
 
 To the extent possible under law, the author(s) have dedicated all
@@ -84,6 +84,14 @@ along with this software (see the LICENSE.md file). If not, see
                     <link url="../Entity/QueryStats" text="Query Stats"/>
                 </container>
             </box-body></container-box>
+            <container-box><box-header title="GraphQl API: GraphQl Playground"/><box-body>
+
+                <link url="/toolstatic/lib/graphql-playground/index.html" url-type="plain"
+                      text="GraphQl Playground" link-type="anchor" target-window="_blank"/>
+
+                <label text="The larger APIs take a few seconds to load. Runs in same session (already authenticated)." type="p"/>
+            </box-body></container-box>
+
         </row-col></container-row>
 
         <!-- <link url="reloadEcfi" text="Reload Framework" link-type="anchor" confirmation="Are you sure? This is for development and emergency use only."/> -->
